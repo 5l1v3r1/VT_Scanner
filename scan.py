@@ -95,9 +95,9 @@ class VirusTotal(object):
 
 if __name__ == "__main__":
     vt = VirusTotal()
-    vt.apikey = "38982514c9e8f4c68f6ff7fd8d3e5acf1e5086978019f028e5a03aff1e51c5c9"
+    vt.apikey = "___YOUR VIRUS TOTAL API KEY___"
 
-    file_path = "/home/ariefhakimaskar/Desktop/VT_Scanner_MF/PE/"
+    file_path = "___YOUR MALWARE FILES DIRECTORY___"
     
     vt.send_files(file_lists(file_path))
     vt.retrieve_files_reports(file_lists(file_path))
